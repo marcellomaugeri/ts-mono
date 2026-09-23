@@ -77,10 +77,6 @@
     "@typescript-eslint/no-unnecessary-condition": {
       "count": 2,
       "undescribed": 2
-    },
-    "react-hooks/exhaustive-deps": {
-      "count": 1,
-      "undescribed": 1
     }
   },
   "apps/inspect/src/app/log-view/LogViewContainer.tsx": {
@@ -239,7 +235,7 @@
   },
   "apps/inspect/src/app/samples/descriptor/samplesDescriptor.tsx": {
     "@ts-expect-error": {
-      "count": 8
+      "count": 1
     }
   },
   "apps/inspect/src/app/samples/descriptor/score/ListScoreDescriptor.tsx": {
@@ -1597,12 +1593,9 @@
   },
   "packages/react/src/hooks/useScrollDirection.ts": {
     "react-hooks/exhaustive-deps": {
-      "count": 2
+      "count": 1
     },
     "react-hooks/refs": {
-      "count": 2
-    },
-    "react-hooks/use-memo": {
       "count": 1
     }
   },
